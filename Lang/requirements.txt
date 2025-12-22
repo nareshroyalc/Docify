@@ -1,0 +1,22 @@
+
+# Core LangChain packages
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+langchain
+langchain-community
+
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Google APIs
+google-generativeai>=0.8.0
+google-auth>=2.34.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.147.0
+
+# Pydantic for structured outputs
+pydantic>=2.9.0
+
+# Other dependencies
+python-dotenv>=1.0.0

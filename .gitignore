@@ -1,0 +1,47 @@
+# Python virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+*/chain/
+*/trad/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Test files
+.coverage
+htmlcov/
+
+# Google API credentials (sensitive data)
+*-cec8fb727916.json
+
+# Logs
+*.log

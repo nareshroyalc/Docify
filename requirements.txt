@@ -1,0 +1,17 @@
+# Google APIs (Traditional & LangChain)
+google-api-python-client==2.111.0
+google-auth==2.29.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.2.0
+google-generativeai==0.8.3
+
+# Utilities
+python-dotenv==1.0.1
+
+# LangChain Dependencies (for langchain folder)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-google-genai>=0.0.6
+
+# Pydantic for structured output (LangChain)
+pydantic>=2.0.0

@@ -1,0 +1,5 @@
+# FastAPI requirements (add to existing requirements.txt)
+fastapi==0.124.0
+uvicorn[standard]==0.29.0
+pydantic==2.5.0
+python-dotenv==1.0.0
