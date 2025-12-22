@@ -74,6 +74,7 @@ cd Docify
 
 2. **Create virtual environment** (optional but recommended):
 ```bash
+cd Lang
 # Using Python venv
 python -m venv venv
 
@@ -86,7 +87,6 @@ source venv/bin/activate
 
 3. **Install dependencies**:
 ```bash
-cd Lang
 pip install -r requirements.txt
 pip install -r requirements-api.txt
 ```
@@ -218,23 +218,7 @@ jupyter notebook 02_API_Testing.ipynb
 3. **Display** → ResponseDisplay shows generated documentation
 4. **Export** → User can copy or download documentation
 
-## Deployment
 
-### Docker (Optional)
-
-Build Docker image:
-```bash
-docker build -t docify .
-```
-
-Run container:
-```bash
-docker run -p 8000:8000 -e GOOGLE_API_KEY=your_key docify
-```
-
-### Production Deployment
-
-See [DEPLOYMENT.md](Lang/DEPLOYMENT.md) for detailed deployment instructions.
 
 ## Troubleshooting
 
