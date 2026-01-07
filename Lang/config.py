@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Google Docs
-SERVICE_ACCOUNT_FILE = os.getenv("SERVICE_ACCOUNT_FILE", "doc-bee-cec8fb727916.json")
-DOC_ID = os.getenv("DOC_ID", "1dQ50-UzJASiJUDcmymfpP3hoiiZptaP-SolMaIBPhMY")
+SERVICE_ACCOUNT_FILE = os.getenv("SERVICE_ACCOUNT_FILE", "")
+DOC_ID = os.getenv("DOC_ID", "")
 SCOPES = ["https://www.googleapis.com/auth/documents"]
 
 # Gemini API
